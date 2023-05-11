@@ -4,27 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f893cf7b-57a5-41f1-91fa-e82a669c182f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/OneTools.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/localTest/LocalTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Administration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Dashboard.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Finance.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Marketing.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Organisation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Products.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Proposals.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Sales.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/UserSetting.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Warehouse.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f893cf7b-57a5-41f1-91fa-e82a669c182f" name="Changes" comment="Dependencies&#10;Features File&#10;Maven">
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/enums/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/AdministrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/ContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/FinancePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/MarketingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/OneToolPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/OrganisationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/ProposalsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/SalesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/UserSettingsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/pages/WarehousePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/AbstractSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/AdministrationSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/ContactSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/CustomerSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/DashboardSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/FinanceSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/MarketingSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/OrganisationSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/ProductsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/ProposalsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/SalesSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/UserSettingsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/steps/WarehouseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OneTool/testsuite/OneToolConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +64,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/repositories/AutoTest/Forsschrittes_AutoTest/Fortschrittes_AutoTest",
+    "last_opened_file_path": "C:/repositories/AutoTest/Forsschrittes_AutoTest/Fortschrittes_AutoTest/.idea",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\repositories\AutoTest\Forsschrittes_AutoTest\Fortschrittes_AutoTest\.idea" />
+      <recent name="C:\repositories\AutoTest\Forsschrittes_AutoTest\Fortschrittes_AutoTest\src\main\java\OneTool\steps" />
+      <recent name="C:\repositories\AutoTest\Forsschrittes_AutoTest\Fortschrittes_AutoTest\src\main\java\OneTool\pages" />
       <recent name="C:\repositories\AutoTest\Forsschrittes_AutoTest\Fortschrittes_AutoTest" />
       <recent name="C:\repositories\AutoTest\Forsschrittes_AutoTest\Fortschrittes_AutoTest\src\main\java\OneTool\enums" />
-      <recent name="C:\repositories\AutoTest\Forsschrittes_AutoTest\Fortschrittes_AutoTest\src\test" />
-      <recent name="C:\repositories\AutoTest\Forsschrittes_AutoTest\Fortschrittes_AutoTest\src\test\java" />
-      <recent name="C:\repositories\AutoTest\Forsschrittes_AutoTest\Fortschrittes_AutoTest\target" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="OneTool.testsuite" />
+      <recent name="OneTool.enums" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,6 +90,21 @@
       <option name="presentableId" value="Default" />
       <updated>1683826872338</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dependencies">
+      <created>1683829251214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683829251214</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Dependencies&#10;Features File&#10;Maven">
+      <created>1683829372314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683829372314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,5 +117,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dependencies" />
+    <MESSAGE value="Dependencies&#10;Features File&#10;Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependencies&#10;Features File&#10;Maven" />
   </component>
 </project>
